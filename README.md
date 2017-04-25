@@ -1,6 +1,6 @@
 # npmtest-quill
 
-#### test coverage for  [quill (v1.2.4)](http://quilljs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-quill.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-quill) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-quill.svg)](https://travis-ci.org/npmtest/node-npmtest-quill)
+#### basic test coverage for  [quill (v1.2.4)](http://quilljs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-quill.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-quill) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-quill.svg)](https://travis-ci.org/npmtest/node-npmtest-quill)
 
 #### Your powerful, rich text editor
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-quill/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-quill/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-quill/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-quill/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-quill/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-quill/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-quill/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-quill/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-quill/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-quill/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-quill/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-quill/build/coverage.html/index.html)
 
@@ -145,7 +145,8 @@
         "webdriver:start": "webdriver-manager start",
         "webdriver:update": "webdriver-manager update"
     },
-    "version": "1.2.4"
+    "version": "1.2.4",
+    "bin": {}
 }
 ```
 
